@@ -1,4 +1,4 @@
-package bai7_tinh_chi_so_can_nang;
+package bai7_BMI;
 
 import java.util.Scanner;
 

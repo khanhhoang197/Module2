@@ -1,4 +1,4 @@
-package bai3_SD_Toan_Tu;
+package bai3_Use_Operator;
 import java.util.Scanner;
 public class Shcn {
     public static void main(String[] args){

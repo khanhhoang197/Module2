@@ -1,4 +1,4 @@
-package bai5_dem_ngay;
+package bai5_Day_Of_Month;
 
 import java.util.Scanner;
 

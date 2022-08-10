@@ -1,4 +1,4 @@
-package bai1_SDBien;
+package bai1_Use_Variable;
 
 public class SDBien {
     public static void main(String[] args) {

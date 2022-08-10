@@ -1,4 +1,4 @@
-package bai4_PT_Bac1;
+package bai4_Equation1;
 
 import java.util.Scanner;
 

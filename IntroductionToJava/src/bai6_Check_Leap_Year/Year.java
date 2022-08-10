@@ -1,4 +1,4 @@
-package bai6_kt_nam_nhuan;
+package bai6_Check_Leap_Year;
 
 import java.util.Scanner;
 
