@@ -1,4 +1,4 @@
-package systemTime;
+package bai2_System_Time;
 import java.util.Date;
 
 public class SystemTime {
