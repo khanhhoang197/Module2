@@ -1,4 +1,4 @@
-package Bai1_SDBien;
+package bai1_SDBien;
 
 public class SDBien {
     public static void main(String[] args) {
@@ -8,6 +8,6 @@ public class SDBien {
         boolean b = true;
         char c = 'a';
         String s = "Hà Nội";
-        System.out.printf("i = %d\n f = %f\n d = %f\n b = %b\n c = %s\n s = %s\n", i, f, d, b, c, s);
+        System.out.printf("i = %d\n f = %.1f\n d = %.1f\n b = %b\n c = %c\n s = %s\n", i, f, d, b, c, s);
     }
 }

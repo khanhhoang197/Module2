@@ -1,4 +1,4 @@
-package Bai3_SD_Toan_Tu;
+package bai3_SD_Toan_Tu;
 import java.util.Scanner;
 public class Shcn {
     public static void main(String[] args){

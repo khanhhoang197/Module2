@@ -1,4 +1,4 @@
-package SystemTime;
+package systemTime;
 import java.util.Date;
 
 public class SystemTime {
