@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array_3/Array_3.iml" filepath="$PROJECT_DIR$/Array_3/Array_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/IntroductionToJava.iml" filepath="$PROJECT_DIR$/IntroductionToJava/IntroductionToJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module2.iml" filepath="$PROJECT_DIR$/.idea/Module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UocChungLonNhat/UocChungLonNhat.iml" filepath="$PROJECT_DIR$/UocChungLonNhat/UocChungLonNhat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vong_Lap_Trong_Java.2/Vong_Lap_Trong_Java.2.iml" filepath="$PROJECT_DIR$/Vong_Lap_Trong_Java.2/Vong_Lap_Trong_Java.2.iml" />
+    </modules>
+  </component>
+</project>
