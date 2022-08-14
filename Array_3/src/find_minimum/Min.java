@@ -13,7 +13,6 @@ public class Min {
             if (array[i] < array[index]) {
                 index = i;
             }
-
         }
         return index;
     }
