@@ -1,8 +1,8 @@
 package shape;
 
 public class Shape {
-    private String color = "Green";
-    private boolean filled = true;
+    public String color = "Green";
+   public boolean filled = true;
 
     public Shape() {
 
@@ -22,6 +22,7 @@ public class Shape {
     }
 
     public boolean isFilled() {
+
         return filled;
     }
 
