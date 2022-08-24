@@ -8,10 +8,10 @@ public class Experience extends Employee{
 
     }
 
-    @Override
-    public void showInfo() {
-
-    }
+//    @Override
+//    public void showInfo() {
+//
+//    }
 
     public Experience(int id, String fullName, String birthDay, int phone,
                       String email, int employee_type, int expInYear,
@@ -49,6 +49,6 @@ public class Experience extends Employee{
                 ", expInYear = " + expInYear +
                 ", proSkill = '" + proSkill + '\'' +
                 ", certificates = " + certificates +
-                '}';
+                '}' + super.showInfo();
     }
 }

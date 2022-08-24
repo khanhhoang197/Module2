@@ -38,22 +38,22 @@ public class Fresher extends Employee{
     public void setGraduation_date(String graduation_date) {
         this.graduation_date = graduation_date;
     }
-    @Override
-    public void showInfo() {
-
-    }
+//    @Override
+//    public void showInfo() {
+//
+//    }
     public String showMe() {
         return "Fresher{" +
-                "graduation_rank='" + graduation_rank + '\'' +
-                ", education='" + education + '\'' +
-                ", graduation_date='" + graduation_date + '\'' +
-                ", id=" + id +
-                ", phone=" + phone +
-                ", employee_type=" + employee_type +
-                ", fullName='" + fullName + '\'' +
-                ", email='" + email + '\'' +
-                ", birthDay='" + birthDay + '\'' +
-                ", certificates=" + certificates +
-                '}';
+                "id = " + id +
+                ", fullName = '" + fullName + '\'' +
+                ", birthDay = '" + birthDay + '\'' +
+                ", phone = " + phone +
+                ", email = '" + email + '\'' +
+                ", employee_type = " + employee_type +
+                ", certificates = " + certificates +
+                "graduation_rank = '" + graduation_rank + '\'' +
+                ", education = '" + education + '\'' +
+                ", graduation_date = '" + graduation_date + '\'' +
+                '}' + super.showInfo();
     }
 }

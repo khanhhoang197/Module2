@@ -46,7 +46,7 @@ public abstract class Employee {
         return employee_type;
     }
 
-    public void setEmployeet_ype(int employee_type) {
+    public void setEmployeet_type(int employee_type) {
         this.employee_type = employee_type;
     }
 
@@ -82,16 +82,16 @@ public abstract class Employee {
         this.certificates = certificates;
     }
 //
-    public abstract void showInfo();
-//    public String showInfo() {
-//        return "Employee{" +
-//                "id=" + id +
-//                ", fullName='" + fullName + '\'' +
-//                ", birthDay='" + birthDay + '\'' +
-//                ", phone=" + phone +
-//                ", email='" + email + '\'' +
-//                ", employee_type=" + employee_type +
-//                ", certificates=" + certificates +
-//                '}';
- // }
+//    public abstract void showInfo();
+    public String showInfo() {
+        return "Employee{" +
+                "id = " + id +
+                ", fullName = '" + fullName + '\'' +
+                ", birthDay = '" + birthDay + '\'' +
+                ", phone = " + phone +
+                ", email = '" + email + '\'' +
+                ", employee_type = " + employee_type +
+                ", certificates = " + certificates +
+                '}';
+  }
 }

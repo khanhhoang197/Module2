@@ -38,22 +38,21 @@ public class Intern extends Employee{
         this.university_name = university_name;
     }
 
-    @Override
-    public void showInfo() {
-
-    }
+//    @Override
+//    public void showInfo() {
+//
+//    }
     public String showMe() {
         return "Intern{" +
-                "majors='" + majors + '\'' +
-                ", semester='" + semester + '\'' +
-                ", university_name='" + university_name + '\'' +
-                ", id=" + id +
-                ", phone=" + phone +
-                ", employee_type=" + employee_type +
-                ", fullName='" + fullName + '\'' +
-                ", email='" + email + '\'' +
-                ", birthDay='" + birthDay + '\'' +
-                ", certificates=" + certificates +
-                '}';
+                "id = " + id +
+                ", fullName = '" + fullName + '\'' +
+                ", birthDay = '" + birthDay + '\'' +
+                ", phone = " + phone +
+                ", email = '" + email + '\'' +
+                ", employee_type = " + employee_type +
+                ", certificates = " + certificates +
+                ", university_name = '" + university_name + '\'' +
+                ", majors = '" + majors + '\'' +
+                '}' + super.showInfo();
     }
 }
