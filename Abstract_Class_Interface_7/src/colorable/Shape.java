@@ -2,6 +2,7 @@ package colorable;
 
 public abstract class Shape implements Colorable{
     private String color = "Orange";
+
     private boolean filled = true;
     public Shape(){
 
