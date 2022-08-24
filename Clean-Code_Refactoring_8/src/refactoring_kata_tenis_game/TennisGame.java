@@ -21,7 +21,7 @@ public class TennisGame {
     }
 
     public static String draw(int score) {
-        String result = null;
+        String result ;
         switch (score) {
             case 0:
                 result = LOVE_ALL;
@@ -54,7 +54,7 @@ public class TennisGame {
 
     public static String getScore(int scorePlayer1, int scorePlayer2) {
         StringBuilder score = new StringBuilder();
-        int tempScore = 0;
+        int tempScore;
         if (scorePlayer1 == scorePlayer2) {
             score = new StringBuilder(draw(scorePlayer1));
             return score.toString();
