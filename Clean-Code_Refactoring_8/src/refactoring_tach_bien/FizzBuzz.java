@@ -15,4 +15,6 @@ public class FizzBuzz {
 
         return number + "";
     }
+
+
 }

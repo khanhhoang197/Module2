@@ -23,5 +23,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="Clean-Code_Refactoring_8" />
   </component>
 </module>
