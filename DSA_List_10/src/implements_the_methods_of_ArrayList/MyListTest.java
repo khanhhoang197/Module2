@@ -23,13 +23,13 @@ public class MyListTest {
         do {
             System.out.print("Enter check number: ");
             num = sc.nextInt();
-            if (list.contains(num)) {
+            if (list.contains(num))
                 System.out.println(num + " is Yes!");
-
-            }
-                if(!list.contains(num)) {
+            else
                 System.out.println(num + " is NO!");
-            }
+
+//            if(num != sc.nextInt())
+//               return;
         } while (true);
     }
 
