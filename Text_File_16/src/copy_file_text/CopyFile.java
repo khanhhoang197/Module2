@@ -31,7 +31,7 @@ public class CopyFile {
                 bufferedWriter.write(str+"\n");
             }
             bufferedWriter.close();
-            System.err.print("Copy file thành công");
+            System.out.print("Copy file thành công");
         }
         catch (IOException e){
             e.printStackTrace();

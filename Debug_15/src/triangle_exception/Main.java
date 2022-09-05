@@ -21,7 +21,7 @@ public class Main {
                 System.out.println(ex.getMessage());
             }
         } catch (Exception e) {
-            System.out.println("Sai: khong dung dinh dang!");
+            System.err.println("Sai: khong dung dinh dang!");
         }
     }
 }
