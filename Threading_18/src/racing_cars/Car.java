@@ -39,6 +39,6 @@ public class Car implements Runnable{
             }
         }
         long endTime = System.currentTimeMillis();
-        System.out.printf("\nCar %s Finish in %d s",this.name,(endTime - startTime)/100);
+        System.out.printf("\nCar %s Finish in %d s",this.name,(endTime - startTime)/1000);
     }
 }
