@@ -23,8 +23,8 @@ public class Main {
         students.add(new Student(3, "Đặng Huy Hoà", "Đà Nẵng"));
         students.add(new Student(4, "Nguyễn Khánh Tùng", "Hà Nội"));
         students.add(new Student(5, "Nguyễn Khắc Nhật", "Hà Nội"));
-        writeToFile("student.txt", students);
-        List<Student> studentDataFromFile = readDataFromFile("student.txt");
+        writeToFile("F:\\CodeGym\\Module2\\BinaryFile_Serialization_17\\src\\read_and_write_student_2_binary\\student.txt", students);
+        List<Student> studentDataFromFile = readDataFromFile("F:\\CodeGym\\Module2\\BinaryFile_Serialization_17\\src\\read_and_write_student_2_binary\\student.txt");
         for (Student student : studentDataFromFile){
             System.out.println(student);
         }
